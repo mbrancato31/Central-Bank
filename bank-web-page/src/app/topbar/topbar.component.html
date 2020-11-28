@@ -1,0 +1,7 @@
+<div class="topnav">
+  <a class="title">Central Bank</a>
+  <a *ngIf="get_is_logged()" class="links" routerLink="/transfers">Transfers</a>
+  <a *ngIf="get_is_logged()" class="links" routerLink="/dashboard">Dashboard</a>
+  <a *ngIf="get_is_logged()" class="links" routerLink="/login">Logout</a>
+  <a *ngIf="!get_is_logged()" class="links" routerLink="/login">Login</a>
+</div>

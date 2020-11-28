@@ -1,0 +1,46 @@
+<body>
+    <div class="welcome_div">
+        <h3>Welcome {{ user_info.first_name }} {{ user_info.last_name }}</h3>
+    </div>
+    <div class="accounts" >
+        <div *ngFor="let account of accounts_info">
+            <div class="accounts_box">
+                <!-- <div class="accounts_box_info"> -->
+                <div class="account_div_type">
+                    <h3 *ngIf="account.type === 0">Savings</h3>
+                    <h3 *ngIf="account.type === 1">Checking</h3>
+                </div>
+                <div class="account_div">
+                    <label>Account Number: {{ account.account_number }}</label>
+                </div>
+                <div class="account_div">
+                    <label>Routing Number: {{ account.routing_number }}</label>
+                </div>
+                <div class="account_div">
+                    <label>Balance: {{ account.balance }} $</label>
+                </div>
+                <!-- </div> -->
+
+                <div class="account_div_transactions_outside">
+                    <div class="account_div_transactions_inside">
+                        <app-transactions [type]=account.type></app-transactions>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accounts_box">
+            <div class="account_div_type">
+                <h3>Information</h3>
+            </div>
+            <div class="account_div">
+                <label>Address: {{ user_info.address }}</label>
+            </div>
+            <div class="account_div">
+                <label>Phone Number: {{ user_info.phone_number }}</label>
+            </div>
+        </div>
+    </div>
+
+
+</body>

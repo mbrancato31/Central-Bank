@@ -1,0 +1,30 @@
+<div class="container">
+    <h1>Transactions</h1>
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>
+                    <label *ngIf="date_up" (click)="arrange_date('down')">Date &#8638;</label>
+                    <label *ngIf="!date_up" (click)="arrange_date('up')">Date &#8642;</label>
+                </th>
+                <th>Name</th>
+                <th>
+                    <label *ngIf="amount_up" (click)="arrange_amount('down')">$ &#8638;</label>
+                    <label *ngIf="!amount_up" (click)="arrange_amount('up')">$ &#8642;</label>
+                </th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let transaction of transactions">
+                <td>{{ transaction.transaction_id }}</td>
+                <td>{{ transaction.date }}</td>
+                <td>{{ transaction.name }}</td>
+                <td>{{ transaction.amount }}</td>
+                <td>{{ transaction.status }}</td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>

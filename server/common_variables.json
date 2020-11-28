@@ -1,0 +1,6 @@
+{
+    "credentialsdir": "/../database/credentials.json",
+    "accountdir": "/../database/account.json",
+    "transactionsdir": "/../database/transactions.json",
+    "userdir": "/../database/user.json"
+}

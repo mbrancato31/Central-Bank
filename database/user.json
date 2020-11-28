@@ -1,0 +1,82 @@
+[
+    {
+        "user_id": 0,
+        "first_name": "Maurizio",
+        "last_name": "Brancato",
+        "ssn": 121212129,
+        "address": "1234 Some Street Orlando FL 32828",
+        "phone_number": "4142602900"
+    },
+    {
+        "user_id": 1,
+        "first_name": "test",
+        "last_name": "1234",
+        "ssn": 131313139,
+        "address": "1235 Some Street Orlando FL 32828",
+        "phone_number": "0000000000"
+    },
+    {
+        "user_id": 2,
+        "first_name": "Axel",
+        "last_name": "Diaz",
+        "ssn": 141414149,
+        "address": "1236 Some Street Orlando FL 32828",
+        "phone_number": "4177104430"
+    },
+    {
+        "user_id": 3,
+        "first_name": "Andres",
+        "last_name": "Herrera",
+        "ssn": 131414414,
+        "address": "3 Some Street Orlando FL 32828",
+        "phone_number": "4177121330"
+    },
+    {
+        "user_id": 4,
+        "first_name": "Carmelo",
+        "last_name": "Bran",
+        "ssn": 141141149,
+        "address": "1212 Some Street Orlando FL 32828",
+        "phone_number": "5557104430"
+    },
+    {
+        "user_id": 5,
+        "first_name": "Juan",
+        "last_name": "Segundo",
+        "ssn": 372414149,
+        "address": "9090 Some Street Orlando FL 32828",
+        "phone_number": "7867104430"
+    },
+    {
+        "user_id": 6,
+        "first_name": "John",
+        "last_name": "Cena",
+        "ssn": 901214149,
+        "address": "1000 Some Street Orlando FL 32828",
+        "phone_number": "1112222333"
+    },
+    {
+        "user_id": 7,
+        "first_name": "Conejo",
+        "last_name": "Malo",
+        "ssn": 909091491,
+        "address": "9999 Some Street Orlando FL 32828",
+        "phone_number": "4177123430"
+    },
+    {
+        "user_id": 8,
+        "first_name": "John",
+        "last_name": "Snow",
+        "ssn": 140014149,
+        "address": "1236 Winterfell 32828",
+        "phone_number": "4177104430"
+    },
+    {
+        "user_id": 9,
+        "first_name": "Ted",
+        "last_name": "Mosby",
+        "ssn": 141414149,
+        "address": "1236 ny 32828",
+        "phone_number": "4177104430"
+    }
+]

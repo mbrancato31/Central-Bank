@@ -1,0 +1,32 @@
+<body class="login-form">
+    <div class="login-box">
+        <h1 class="login-title">Login</h1>
+
+        <form (submit)="loginUser($event)">
+
+            <div>
+                <label class="login-label" for="username">Username</label>
+            </div>
+            <div>
+                <input class="login-input" id="username" type="text" formControlName="username">
+            </div>
+            <br>
+            <div>
+                <label class="login-label" for="password">Password</label>
+            </div>
+            <div>
+                <input class="login-input" id="password" type="password" formControlName="password">
+            </div>
+            <br>
+
+            <div>
+                <a *ngIf="invalid_creds" class="invalid-label">Invalid username or password!!</a>
+            </div>
+            <br>
+
+            <button class="button" type="submit">
+                Sign In
+            </button>
+        </form>
+    </div>
+</body>

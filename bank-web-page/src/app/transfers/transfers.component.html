@@ -1,0 +1,93 @@
+<body class="transfers-form">
+    <div class="transfers-box">
+        <h1 class="transfers-title">Transfers</h1>
+        <div *ngIf="!is_transferred">
+            <form (submit)="transfersUser($event)">
+
+                <div>
+                    <label class="transfers-label" for="account_type">Account type</label>
+                </div>
+                <div>
+                    <select ng-model="acc_type_box" id="acc_type_box">
+                        <option *ngFor="let type of account_types" [value]="type">
+                            {{ type }}
+                        </option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label class="transfers-label" for="account_number">Receiver Account Number</label>
+                </div>
+                <div>
+                    <input class="transfers-input" id="account_number" type="text" formControlName="account_number">
+                </div>
+                <br>
+                <div>
+                    <label class="transfers-label" for="routing_number">Receiver Routing Number</label>
+                </div>
+                <div>
+                    <input class="transfers-input" id="routing_number" type="text" formControlName="routing_number">
+                </div>
+                <br>
+                <div>
+                    <a *ngIf="invalid_number" class="invalid-label">Invalid account or routing number!!</a>
+                </div>
+                <br>
+                <div>
+                    <label class="transfers-label" for="amount">Amount</label>
+                </div>
+                <div>
+                    <input class="transfers-input" id="amount" type="number" step=".01" min="1.00" formControlName="amount">
+                </div>
+                <br>
+                <div>
+                    <a *ngIf="invalid_amount" class="invalid-label">Invalid amount!!</a>
+                </div>
+                <br>
+
+                <div>
+                    <!-- <a *ngIf="invalid_creds" class="invalid-label">Invalid username or password!!</a> -->
+                </div>
+                <br>
+
+                <button class="button" type="submit">
+                    Send
+                </button>
+            </form>
+        </div>
+        <div *ngIf="is_transferred" class="transferred_box">
+            <div>
+                <label class="transferred-label-success" for="success">Success!</label>
+            </div>
+            <br>
+            <div>
+                <label class="transferred-label" for="receipt">Receipt</label>
+            </div>
+            <br>
+            <div>
+                <label class="transferred-label">Transfer id: </label>
+                <label class="transferred-label">{{ receipt.transaction_id }}</label>
+            </div>
+            <br>
+            <div>
+                <label class="transferred-label">Date: </label>
+                <label class="transferred-label">{{ receipt.date }}</label>
+            </div>
+            <br>
+            <div>
+                <label class="transferred-label">Name: </label>
+                <label class="transferred-label">{{ receipt.name }}</label>
+            </div>
+            <br>
+            <div>
+                <label class="transferred-label">Amount: </label>
+                <label class="transferred-label">{{ receipt.amount }} $</label>
+            </div>
+            <br>
+            <div>
+                <label class="transferred-label">Status: </label>
+                <label class="transferred-label">{{ receipt.status }}</label>
+            </div>
+        </div>
+    </div>
+</body>

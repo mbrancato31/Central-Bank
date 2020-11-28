@@ -1,0 +1,162 @@
+[
+    [
+        {
+            "user_id": 0,
+            "account_number": 273957217904,
+            "routing_number": 816938652,
+            "type": 0,
+            "balance": 9913.95
+        },
+        {
+            "user_id": 0,
+            "account_number": 105629385689,
+            "routing_number": 102985758,
+            "type": 1,
+            "balance": 1151
+        }
+    ],
+    [
+        {
+            "user_id": 1,
+            "account_number": 592836583928,
+            "routing_number": 293721092,
+            "type": 0,
+            "balance": 1000046.05
+        },
+        {
+            "user_id": 1,
+            "account_number": 563874927560,
+            "routing_number": 112837938,
+            "type": 1,
+            "balance": 99899
+        }
+    ],
+    [
+        {
+            "user_id": 2,
+            "account_number": 105729385629,
+            "routing_number": 101927583,
+            "type": 0,
+            "balance": 500000
+        },
+        {
+            "user_id": 2,
+            "account_number": 102926583742,
+            "routing_number": 119275938,
+            "type": 1,
+            "balance": 20000
+        }
+    ],
+    [
+        {
+            "user_id": 3,
+            "account_number": 123421527256,
+            "routing_number": 927492530,
+            "type": 0,
+            "balance": 12345
+        },
+        {
+            "user_id": 3,
+            "account_number": 203849274632,
+            "routing_number": 128462910,
+            "type": 1,
+            "balance": 200001
+        }
+    ],
+    [
+        {
+            "user_id": 4,
+            "account_number": 291739136927,
+            "routing_number": 902736881,
+            "type": 0,
+            "balance": 5020000
+        },
+        {
+            "user_id": 4,
+            "account_number": 283649204757,
+            "routing_number": 202742937,
+            "type": 1,
+            "balance": 2000022
+        }
+    ],
+    [
+        {
+            "user_id": 5,
+            "account_number": 103374839299,
+            "routing_number": 199373293,
+            "type": 0,
+            "balance": 500000
+        },
+        {
+            "user_id": 5,
+            "account_number": 192638936498,
+            "routing_number": 123648264,
+            "type": 1,
+            "balance": 20000
+        }
+    ],
+    [
+        {
+            "user_id": 6,
+            "account_number": 127300373677,
+            "routing_number": 228149924,
+            "type": 0,
+            "balance": 500000
+        },
+        {
+            "user_id": 6,
+            "account_number": 218299263999,
+            "routing_number": 222749266,
+            "type": 1,
+            "balance": 20000
+        }
+    ],
+    [
+        {
+            "user_id": 7,
+            "account_number": 291837389299,
+            "routing_number": 201738373,
+            "type": 0,
+            "balance": 4999990
+        },
+        {
+            "user_id": 7,
+            "account_number": 101838273002,
+            "routing_number": 282437292,
+            "type": 1,
+            "balance": 200000
+        }
+    ],
+    [
+        {
+            "user_id": 8,
+            "account_number": 192736302633,
+            "routing_number": 192737328,
+            "type": 0,
+            "balance": 500000
+        },
+        {
+            "user_id": 8,
+            "account_number": 101827383002,
+            "routing_number": 191923728,
+            "type": 1,
+            "balance": 20000
+        }
+    ],
+    [
+        {
+            "user_id": 9,
+            "account_number": 118728390388,
+            "routing_number": 228264919,
+            "type": 0,
+            "balance": 500000
+        },
+        {
+            "user_id": 9,
+            "account_number": 283946592894,
+            "routing_number": 917383640,
+            "type": 1,
+            "balance": 20000
+        }
+    ]
+]

@@ -1,0 +1,73 @@
+div.welcome_div {
+    background-color: #1e847f;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: table;
+    padding: 1px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: #f5f0e1;
+}
+
+div.accounts {
+    margin-bottom: 20px;
+}
+
+div.accounts_box{
+    background-color: #201e20;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: table;
+    padding: 5px;
+    width: 70%;
+    color: #f5f0e1;
+    max-width: 1000px;
+    min-width: 530px;
+}
+
+div.account_div_type {
+    font-size: large;
+    text-align: center;
+}
+
+div.account_div {
+    background-color: #ced7d8;
+    color: #201e20;
+    border-radius: 3px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+div.account_div_transactions_outside {
+    background-color: #1e3d59;
+    color: #201e20;
+    border-radius: 3px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    min-width: 460px;
+}
+
+div.account_div_transactions_inside {
+    background-color: #ced7d8;
+    color: #201e20;
+    border-radius: 4px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    min-width: 432px;
+}
+
